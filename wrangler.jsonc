@@ -2,5 +2,11 @@
   "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "cfnewup-xl",
   "main": "./_worker.js",
-  "compatibility_date": "2026-01-20"
+  "compatibility_date": "2026-01-20",
+  "kv_namespaces": [
+    {
+      "binding": "c",
+      "id": "9fa5802c02544f71b7597e3f53121494"
+    }
+  ]
 }
