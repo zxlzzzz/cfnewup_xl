@@ -1,5 +1,8 @@
 name: 从 cfnew 同步 Releases
 
+permissions:
+  contents: write
+
 on:
   workflow_dispatch:  # 手动触发
   schedule:
